@@ -1,7 +1,7 @@
 const Tour = require('../models/tourModel');
 const APIFeatures = require('../utils/apiFeatures');
 const catchAsync = require('../utils/catchAsync');
-const AppError = require('./errorController.js');
+const AppError = require('../utils/appErrors');
 
 //ROUTE HANDLERS
 exports.aliasTopTours = async (req, res, next) => {
